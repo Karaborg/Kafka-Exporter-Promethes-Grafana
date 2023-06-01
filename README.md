@@ -36,7 +36,7 @@
 > ADD IP AND PORT AS TARGET IN PROMETHEUS YML FILE
 > YOUR TARGET WILL BE <IP>:<PORT>/metrics
 
-# START GRAFANA
+### START GRAFANA
 `./tmp/furkan/grafana/bin/grafana-server --config /tmp/furkan/grafana/conf/defaults.ini --homepath /tmp/furkan/grafana/ --tracing &`
 
 > CHOOSE LOCALHOST:9090 AS DATASOURCE
